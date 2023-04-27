@@ -4,7 +4,6 @@ export function Servicios() {
     return (
 
         <>
-
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-2 text-center my-3">

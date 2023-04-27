@@ -40,8 +40,8 @@ export function Agenda() {
                     <div className="col-12 col-md-6">
                         <div className="input-group mb-3">
                             <span className="input-group-text" id="basic-addon1">@</span>
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>Hora:</option>
+                            <select className="form-select"  defaultValue={'DEFAULT'}>
+                                <option value="DEFAULT">Hora:</option>
                                 <option value="1">6:30 am</option>
                                 <option value="2">7:00 am</option>
                                 <option value="3">7:30 am</option>
